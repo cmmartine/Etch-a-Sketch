@@ -1,0 +1,10 @@
+#blockContainer{
+    display: grid;
+    width: 960px;
+    height: 960px;
+    
+}
+
+.block{
+    border: .5px solid lightgrey;
+}
