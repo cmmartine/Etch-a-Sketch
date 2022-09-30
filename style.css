@@ -1,11 +1,29 @@
+body{
+    background-image: url(pexels-asad-photo-maldives-457882.jpg);
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+}
+
 #blockContainer{
     display: grid;
-    width: 960px;
-    height: 960px;
+    width: 650px;
+    height: 650px;
     
 }
 
 .block{
-    border: 0.5px solid lightgrey;
+    border: 0.25px solid lightblue;
     
+}
+
+#btn{
+    padding: 5px 10px;
+    justify-self: start;
+    margin-bottom: 40px;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px black;
 }
